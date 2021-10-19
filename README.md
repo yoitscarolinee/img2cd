@@ -15,7 +15,7 @@
 ## 💻 Pré-requisitos
 
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
-<!---Estes são apenas requisitos de exemplo. Adicionar, duplicar ou remover conforme necessário--->
+
 * Verifique se o GD está ativado no arquivo PHP.ini, dando ctrl+f no arquivo e procurando por `extension=gd`, caso ela esteja comentada com um ";" no inicio, só apagar o ponto virgula.
 
 ## 🚀 Instalando img2cd
@@ -31,12 +31,11 @@ git clone https://github.com/yoitscarolinee/img2cd
 
 Para usar img2cd, siga estas etapas:
 
-```
-Após clonar o repositorio, vá em sua pasta raiz pelo navegador e utilize o termo mask.php?img=<URL da sua imagem>
-```
+Após clonar o repositorio, vá em sua pasta raiz pelo navegador e utilize o termo `mask.php?img=<URL da sua imagem>`
+
 
 ## 📫 Contribuindo para img2cd
-<!---Se o seu README for longo ou se você tiver algum processo ou etapas específicas que deseja que os contribuidores sigam, considere a criação de um arquivo CONTRIBUTING.md separado--->
+
 Para contribuir com img2cd, siga estas etapas:
 
 1. Bifurque este repositório.
