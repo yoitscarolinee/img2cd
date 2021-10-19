@@ -46,4 +46,4 @@ Para contribuir com img2cd, siga estas etapas:
 
 Como alternativa, consulte a documentação do GitHub em [como criar uma solicitação pull](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 
-[⬆ Voltar ao topo](# img2cd)<br>
+[⬆ Voltar ao topo](#img2cd)<br>
