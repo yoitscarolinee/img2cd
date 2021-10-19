@@ -1,5 +1,9 @@
 <?php
-$image = imagecreatefrompng('https://media.discordapp.net/attachments/842590159987408957/899861278925946951/Untitled-1.png?width=468&height=468');
+
+$link = $_GET['img'];
+
+imagepng(imagecreatefromstring(file_get_contents($link)), "temp.png");
+$image = imagecreatefrompng('temp.png');
 $source = imagescale($image , 500, 500);
 $mask = imagecreatefrompng( '2.png' );
 imagealphamask( $source, $mask );
@@ -12,6 +16,8 @@ imagesavealpha($image_1, true);
 imagecopy($image_1, $image_2, 0, 0, 0, 0, 500, 500);
 imagepng($image_1, 'resultado.png');
 unlink('recorte.png');
+unlink('temp.png');
+
 
 function imagealphamask( &$picture, $mask ) {
 
@@ -42,3 +48,4 @@ function imagealphamask( &$picture, $mask ) {
 }
 
 ?>
+<img src="resultado.png" alt="">
