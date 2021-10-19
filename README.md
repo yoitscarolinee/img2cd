@@ -8,7 +8,7 @@
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/yoitscarolinee/img2cd?style=for-the-badge)
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/yoitscarolinee/img2cd?style=for-the-badge)
 
-<img src="exemplo-image.png" alt="exemplo imagem">
+<img src="https://cdn.discordapp.com/attachments/842590159987408957/899970090685059162/IMG2CD.png" alt="exemplo imagem">
 
 > Converte qualquer imagem em um cd.
 
